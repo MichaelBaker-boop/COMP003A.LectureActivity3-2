@@ -23,6 +23,34 @@
                 Console.WriteLine($"{i} x {num} = {i * num}");
             }
 
+            // Display table in reverse using a while loop
+            Console.WriteLine("\nReversed Multiplication Table:");
+            int reverse = 10; // start at 10
+            // loop to generate multiplication table in reverse
+            while (reverse > 0) 
+            {
+                // Display the multiplication table in reverse
+                Console.WriteLine($"{reverse} x {num} = {reverse * num}");
+                // decrement reverse
+                reverse--;
+            }
+
+            // Display fibonacci series using a do-while loop
+            Console.WriteLine("\nFibonacci Series:");
+            int firstNumber = 0, secondNumber = 1, nextNumber; // First two numbers
+            Console.Write($"{firstNumber} {secondNumber} "); // display first two numbers
+            int count = 2; // Count starts at 2
+            // loop to generate the next 10 numbers in the series
+
+            do
+            {
+                nextNumber = firstNumber + secondNumber; // Calculate next number
+                Console.Write($"{nextNumber} "); // Display next number
+                firstNumber = secondNumber; // Update first number
+                secondNumber = nextNumber; //Update second number
+                count++; // Increment count
+
+            } while (count < 10); //loop until count reaches 10
 
         }
     }
