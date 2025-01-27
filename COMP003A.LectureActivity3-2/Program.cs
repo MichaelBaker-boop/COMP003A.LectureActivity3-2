@@ -1,4 +1,8 @@
-﻿namespace COMP003A.LectureActivity3_2
+﻿// Author: Michael Baker
+// Course: COMP-003A
+// Faculty: Jonathan Cruz
+// Purpose: Demonstrate iterative statements in C#.
+namespace COMP003A.LectureActivity3_2
 {
     internal class Program
     {
